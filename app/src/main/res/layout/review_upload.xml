@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#404040"
+    android:foregroundTint="#B4FFFFFF"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/add_title"
+        android:backgroundTint="#20100F0F"
+        android:foregroundTint="#F6E8E8"
+        android:padding="10dp"
+        android:text="저장"
+        android:textColor="#F8F3F3"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saveBtn"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:text="제목"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/add_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saveBtn"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/title"
+        android:hint="제목을 입력하세요."
+        android:inputType="textCapWords"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/add_image"
+        android:layout_width="119dp"
+        android:layout_height="138dp"
+        android:layout_below="@id/saveBtn"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="50dp"
+        android:layout_toRightOf="@+id/add_title"
+        android:autofillHints="포스터 등록"
+        android:background="#86ECDDDD"
+        android:foreground="@drawable/imageview_default"
+        android:padding="50dp" />
+
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="장르"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/add_genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_title"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/genre"
+        android:hint="스릴러"
+        android:inputType="textCapWords"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/stars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date"
+        android:layout_marginTop="24dp"
+        android:padding="5dp"
+        android:text="별점"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <RatingBar
+        android:id="@+id/add_stars"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_date"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/stars"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:progressTint="@color/RED"
+        android:rating="2.5"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/date"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/genre"
+        android:layout_marginTop="14dp"
+        android:padding="5dp"
+        android:text="관람일"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/add_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_genre"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/date"
+        android:backgroundTint="#03FFFFFF"
+        android:clickable="true"
+        android:focusable="false"
+        android:text="2021.10.31"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_genre"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/add_date"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="OnClickHandler"
+        android:padding="10dp"
+        android:text="날짜 선택"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tagBtn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stars"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#00FFFFFF"
+        android:padding="10dp"
+        android:text="간단리뷰"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/textBtn"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stars"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/tagBtn"
+        android:backgroundTint="#00FFFFFF"
+        android:padding="10dp"
+        android:text="텍스트리뷰"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/textviewmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textBtn"
+        android:text="reviewItems:"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="400dp"
+        android:layout_height="284dp"
+        android:layout_below="@+id/textviewmain"
+        android:layout_marginTop="4dp"></FrameLayout>
+
+</RelativeLayout>
+
+
