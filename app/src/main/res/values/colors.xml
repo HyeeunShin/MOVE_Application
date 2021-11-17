@@ -8,5 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="RED">#F03131</color>
+    <color name="buttonBack">#F7777373</color>
+
+
+
 
 </resources>

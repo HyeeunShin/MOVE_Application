@@ -8,7 +8,7 @@
     android:padding="10dp">
 
 
-    <CheckBox
+    <ToggleButton
         android:id="@+id/tag_good"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,39 +16,41 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="5dp"
-        android:layout_marginBottom="5dp"
-        android:background="@drawable/round"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/toggle"
         android:buttonTint="#FFFFFF"
         android:clickable="true"
         android:padding="5dp"
-        android:text="#웃김"
         android:textColor="@color/white"
+        android:textOff="#웃김"
+        android:textOn="#웃김"
         android:textSize="10sp"
         android:textStyle="bold" />
 
-    <CheckBox
+    <ToggleButton
         android:id="@+id/tag_gamdong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/tag_sgsg"
         android:layout_below="@+id/tagBtn"
         android:layout_marginStart="5dp"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="0dp"
         android:layout_toRightOf="@id/tag_one"
-        android:background="@drawable/round"
+        android:background="@drawable/toggle"
         android:buttonTint="#FFFFFF"
         android:checked="false"
         android:clickable="true"
         android:padding="10dp"
-        android:text="#감동"
         android:textColor="@color/white"
+        android:textOff="#감동"
+        android:textOn="#감동"
         android:textSize="10sp"
         android:textStyle="bold" />
 
-    <CheckBox
+    <ToggleButton
         android:id="@+id/tag_sgsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -60,16 +62,17 @@
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="5dp"
         android:layout_toRightOf="@id/tag_with"
-        android:background="@drawable/round"
+        android:background="@drawable/toggle"
         android:buttonTint="#FFFFFF"
         android:clickable="true"
         android:padding="5dp"
-        android:text="#시간순삭"
         android:textColor="@color/white"
+        android:textOff="#시간순삭"
+        android:textOn="#시간순삭"
         android:textSize="10sp"
         android:textStyle="bold" />
 
-    <CheckBox
+    <ToggleButton
         android:id="@+id/tag_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -81,37 +84,39 @@
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="0dp"
         android:layout_toRightOf="@id/tag_killtime"
-        android:background="@drawable/round"
+        android:background="@drawable/toggle"
         android:buttonTint="#FFFFFF"
         android:clickable="true"
         android:padding="10dp"
-        android:text="#또 볼래!"
         android:textColor="@color/white"
+        android:textOff="#또 볼래"
+        android:textOn="#또 볼래"
         android:textSize="10sp"
         android:textStyle="bold" />
 
-    <CheckBox
+    <ToggleButton
         android:id="@+id/tag_killtime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/tag_soso"
         android:layout_below="@+id/simpleBtn"
         android:layout_marginStart="5dp"
-        android:layout_marginLeft="9dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="5dp"
-        android:layout_marginBottom="6dp"
+        android:layout_marginBottom="0dp"
         android:layout_toRightOf="@id/tag_good"
-        android:background="@drawable/round"
+        android:background="@drawable/toggle"
         android:buttonTint="#FFFFFF"
         android:clickable="true"
         android:padding="10dp"
-        android:text="#킬링타임용"
         android:textColor="@color/white"
+        android:textOff="#킬링타임용"
+        android:textOn="#킬링타임용"
         android:textSize="10sp"
         android:textStyle="bold" />
 
-    <CheckBox
+    <ToggleButton
         android:id="@+id/tag_with"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -119,16 +124,17 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_toRightOf="@id/tag_soso"
-        android:background="@drawable/round"
+        android:background="@drawable/toggle"
         android:buttonTint="#FFFFFF"
         android:clickable="true"
         android:padding="10dp"
-        android:text="#연인과 함께"
         android:textColor="@color/white"
+        android:textOff="#연인과 함께"
+        android:textOn="#연인과 함께"
         android:textSize="10sp"
         android:textStyle="bold" />
 
-    <CheckBox
+    <ToggleButton
         android:id="@+id/tag_nojam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -137,16 +143,17 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
-        android:background="@drawable/round"
+        android:background="@drawable/toggle"
         android:buttonTint="#FFFFFF"
         android:clickable="true"
         android:padding="10dp"
-        android:text="#노잼"
         android:textColor="@color/white"
+        android:textOff="#노잼"
+        android:textOn="#노잼"
         android:textSize="10sp"
         android:textStyle="bold" />
 
-    <CheckBox
+    <ToggleButton
         android:id="@+id/tag_soso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -154,12 +161,13 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="10dp"
         android:layout_toRightOf="@id/tag_nojam"
-        android:background="@drawable/round"
+        android:background="@drawable/toggle"
         android:buttonTint="#FFFFFF"
         android:clickable="true"
         android:padding="10dp"
-        android:text="#그럭저럭"
         android:textColor="@color/white"
+        android:textOff="#그럭저럭"
+        android:textOn="#그럭저럭"
         android:textSize="10sp"
         android:textStyle="bold" />
 
