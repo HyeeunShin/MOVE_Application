@@ -127,7 +127,7 @@
         android:numStars="5"
         android:progressTint="@color/RED"
         android:rating="2.5"
-        android:stepSize="0.5" />
+        android:stepSize="1" />
 
     <TextView
         android:id="@+id/date"
@@ -222,7 +222,7 @@
         android:layout_width="400dp"
         android:layout_height="284dp"
         android:layout_below="@+id/textviewmain"
-        android:layout_marginTop="4dp"></FrameLayout>
+        android:layout_marginTop="4dp"/>
 
 
 
