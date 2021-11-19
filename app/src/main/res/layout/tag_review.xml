@@ -177,7 +177,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tag_nojam"
+        android:layout_marginTop="93dp"
         android:text="tagText : "
         android:textColor="@color/white"
         android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/tagOkBtn"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tag_with"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="4dp"
+        android:layout_toLeftOf="@id/tag_sgsg"
+        android:backgroundTint="#00FFFFFF"
+        android:padding="10dp"
+        android:text="확인"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 </RelativeLayout>
