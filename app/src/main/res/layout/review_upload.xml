@@ -188,8 +188,8 @@
         android:text="간단리뷰"
         android:textColor="@color/white"
         android:textSize="15sp"
-        android:textStyle="bold" />
-
+        android:textStyle="bold"
+        android:onClick="mOnClick"/>
     <Button
         android:id="@+id/textBtn"
         android:layout_width="184dp"
@@ -205,8 +205,8 @@
         android:text="텍스트리뷰"
         android:textColor="@color/white"
         android:textSize="15sp"
-        android:textStyle="bold" />
-
+        android:textStyle="bold"
+        android:onClick="mOnClick"/>
 
 
     <TextView
