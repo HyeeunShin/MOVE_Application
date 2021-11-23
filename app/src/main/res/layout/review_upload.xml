@@ -42,7 +42,7 @@
         android:textStyle="bold"/>
 
 
-    <EditText
+    <TextView
         android:id="@+id/add_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -51,7 +51,6 @@
         android:layout_marginTop="5dp"
         android:layout_marginBottom="10dp"
         android:layout_toRightOf="@id/title"
-        android:hint="제목을 입력하세요."
         android:inputType="textCapWords"
         android:padding="10dp"
         android:textColor="#FFFFFF"
@@ -79,7 +78,7 @@
         android:layout_below="@id/title"
         android:layout_marginTop="5dp"
         android:padding="5dp"
-        android:text="장르"
+        android:text="개봉일"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
         android:textStyle="bold" />
