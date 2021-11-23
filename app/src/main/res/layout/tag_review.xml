@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#404040"
-
     android:padding="10dp">
 
 
@@ -29,15 +28,15 @@
 
     <ToggleButton
         android:id="@+id/tag_gamdong"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
         android:layout_above="@id/tag_sgsg"
         android:layout_below="@+id/tagBtn"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="5dp"
-        android:layout_marginBottom="0dp"
+        android:layout_marginBottom="-2dp"
         android:layout_toRightOf="@id/tag_one"
         android:background="@drawable/toggle"
         android:buttonTint="#FFFFFF"
@@ -45,8 +44,8 @@
         android:clickable="true"
         android:padding="10dp"
         android:textColor="@color/white"
-        android:textOff="#감동"
-        android:textOn="#감동"
+        android:textOff="#감동 "
+        android:textOn="#감동 "
         android:textSize="10sp"
         android:textStyle="bold" />
 
@@ -171,34 +170,28 @@
         android:textSize="10sp"
         android:textStyle="bold" />
 
-
     <TextView
-        android:id="@+id/textviewtag"
+        android:id="@+id/viewtag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tag_nojam"
-        android:layout_marginTop="93dp"
-        android:text="tagText : "
+        android:text=" .."
         android:textColor="@color/white"
         android:textSize="10sp" />
 
-    <Button
-        android:id="@+id/tagOkBtn"
-        android:layout_width="184dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tag_with"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentEnd="false"
-        android:layout_alignParentRight="false"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="22dp"
-        android:layout_marginRight="4dp"
-        android:layout_toLeftOf="@id/tag_sgsg"
-        android:backgroundTint="#00FFFFFF"
-        android:padding="10dp"
-        android:text="확인"
-        android:textColor="@color/white"
-        android:textSize="15sp"
-        android:textStyle="bold" />
+    <!--    <Button-->
+    <!--        android:id="@+id/tagOkBtn"-->
+    <!--        android:layout_width="184dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/tag_with"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_toLeftOf="@id/tag_sgsg"-->
+    <!--        android:layout_marginStart="5dp"-->
+    <!--        android:layout_marginTop="5dp"-->
+    <!--        android:backgroundTint="#00FFFFFF"-->
+    <!--        android:padding="10dp"-->
+    <!--        android:text="확인"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="15sp"-->
+    <!--        android:textStyle="bold" />-->
 </RelativeLayout>

@@ -208,7 +208,6 @@
         android:textStyle="bold"
         android:onClick="mOnClick"/>
 
-
     <TextView
         android:id="@+id/textviewmain"
         android:layout_width="wrap_content"
@@ -217,12 +216,13 @@
         android:text="reviewItems:"
         android:textColor="@color/white"
         android:textSize="10sp" />
+
     <FrameLayout
         android:id="@+id/container"
-        android:layout_width="400dp"
-        android:layout_height="284dp"
+        android:layout_width="401dp"
+        android:layout_height="374dp"
         android:layout_below="@+id/textviewmain"
-        android:layout_marginTop="4dp"/>
+        android:layout_marginTop="4dp" />
 
 
 
