@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="336dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imv_des_poster"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_des_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/acinema"
+            android:text="제목"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/imv_des_poster"
+            app:layout_constraintTop_toTopOf="@+id/imv_des_poster" />
+
+        <TextView
+            android:id="@+id/tv_real_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:ems="10"
+            android:fontFamily="@font/acinema"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_des_title"
+            app:layout_constraintTop_toTopOf="@+id/tv_des_title" />
+
+        <TextView
+            android:id="@+id/tv_des_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/acinema"
+            android:text="별점"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/tv_des_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_des_title" />
+
+        <RatingBar
+            android:id="@+id/btn_ratingbar"
+            style="@android:style/Widget.Holo.RatingBar.Indicator"
+            android:layout_width="172dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-6dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:progressTint="@color/RED"
+            android:rating="0"
+            android:stepSize="1"
+            app:layout_constraintStart_toEndOf="@+id/tv_des_rating"
+            app:layout_constraintTop_toTopOf="@+id/tv_des_rating" />
+
+        <TextView
+            android:id="@+id/tv_des_watchDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/acinema"
+            android:text="관람일"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imv_des_poster" />
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_dateChoose"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="24dp"-->
+<!--            android:layout_marginTop="-6dp"-->
+<!--            android:fontFamily="@font/acinema"-->
+<!--            android:onClick="OnClickHandler"-->
+<!--            android:padding="10dp"-->
+<!--            android:text="날짜 선택"-->
+<!--            android:textSize="15sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/tv_real_date"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/tv_real_date" />-->
+
+        <EditText
+            android:id="@+id/tv_real_date"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="-8dp"
+            android:backgroundTint="#03FFFFFF"
+            android:fontFamily="@font/acinema"
+            android:gravity="center"
+            android:text="xxxx.xx.xx"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            app:layout_constraintStart_toEndOf="@+id/tv_des_watchDate"
+            app:layout_constraintTop_toTopOf="@+id/tv_des_watchDate" />
+
+        <TextView
+            android:id="@+id/tv_des_shortReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/acinema"
+            android:text="간편리뷰"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_des_watchDate" />
+
+        <EditText
+            android:id="@+id/edit_shortReview"
+            android:layout_width="281dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:minHeight="48dp"
+            android:singleLine="true"
+            app:layout_constraintStart_toStartOf="@+id/tv_des_shortReview"
+            app:layout_constraintTop_toBottomOf="@+id/tv_des_shortReview" />
+
+        <TextView
+            android:id="@+id/tv_des_textReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/acinema"
+            android:text="텍스트리뷰"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/tv_des_shortReview"
+            app:layout_constraintTop_toBottomOf="@+id/edit_shortReview" />
+
+        <EditText
+            android:id="@+id/edit_textReview"
+            android:layout_width="381dp"
+            android:layout_height="155dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:maxLines="8"
+            android:minLines="1"
+            android:scrollbars="vertical"
+            app:layout_constraintStart_toStartOf="@+id/tv_des_textReview"
+            app:layout_constraintTop_toBottomOf="@+id/tv_des_textReview" />
+
+        <Button
+            android:id="@+id/btn_okay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="10dp"
+            android:background="#EA4A2A"
+            android:fontFamily="@font/acinema"
+            android:text="저장"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

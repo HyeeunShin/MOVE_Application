@@ -12,22 +12,26 @@
         android:layout_below="@+id/textBtn"
         android:height="30dp"
         android:background="@drawable/border"
-        android:editable="true"
         android:ems="10"
+        android:fontFamily="@font/acinema"
         android:gravity="top"
         android:hint="리뷰를 작성하세요."
-        android:inputType="textLongMessage|text"
+        android:inputType="textMultiLine"
+        android:lines="6"
+        android:maxLines="8"
+        android:minLines="1"
+        android:scrollbars="vertical"
         android:textAlignment="gravity"
         android:textSize="18dp" />
 
     <TextView
-        android:id="@+id/textviewtext"
+        android:id="@+id/viewtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/add_textReview"
-        android:text="reviewText : "
         android:textColor="@color/white"
-        android:textSize="10sp" />
+        android:fontFamily="@font/acinema"
+        android:textSize="30sp"        />
 
 <!--    <Button-->
 <!--        android:id="@+id/textOkBtn"-->

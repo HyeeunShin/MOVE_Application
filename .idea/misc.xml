@@ -3,19 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/as221/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/border.xml" value="0.15885416666666666" />
-        <entry key="..\:/Users/as221/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/round.xml" value="0.14583333333333334" />
-        <entry key="..\:/Users/as221/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/toggle.xml" value="0.14375" />
-        <entry key="..\:/Users/as221/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_join.xml" value="0.1" />
-        <entry key="..\:/Users/as221/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/as221/AndroidStudioProjects/MyApplication/app/src/main/res/layout/layout.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/as221/AndroidStudioProjects/MyApplication/app/src/main/res/layout/list_item.xml" value="0.1" />
-        <entry key="..\:/Users/as221/AndroidStudioProjects/MyApplication/app/src/main/res/layout/movie_search.xml" value="0.536" />
-        <entry key="..\:/Users/as221/AndroidStudioProjects/MyApplication/app/src/main/res/layout/review_upload.xml" value="0.4" />
-        <entry key="..\:/Users/as221/AndroidStudioProjects/MyApplication/app/src/main/res/layout/sub.xml" value="0.264" />
-        <entry key="..\:/Users/as221/AndroidStudioProjects/MyApplication/app/src/main/res/layout/tag_review.xml" value="0.264" />
-        <entry key="..\:/Users/as221/AndroidStudioProjects/MyApplication/app/src/main/res/layout/text_review.xml" value="0.2" />
-        <entry key="..\:/Users/as221/AndroidStudioProjects/move/app/src/main/res/layout/movie_search.xml" value="0.1" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/font/font.xml" value="0.209375" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/layout/dialog_edit.xml" value="0.22" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/layout/intro_activity.xml" value="0.22" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/layout/item_list.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/layout/list_item.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/layout/movie_search.xml" value="0.22" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/layout/reviewAlbum_activity.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/layout/review_album_activity.xml" value="0.22" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/layout/review_show_activity.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/layout/review_upload.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/layout/tag_review.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/layout/text_review.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/menu/menu.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/anjiw/AndroidStudioProjects/Move/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -11,21 +11,22 @@
 
     <Button
         android:id="@+id/saveBtn"
-        android:layout_width="93dp"
-        android:layout_height="wrap_content"
+        android:layout_width="91dp"
+        android:layout_height="37dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_marginLeft="98dp"
+        android:layout_marginLeft="110dp"
         android:layout_marginTop="2dp"
         android:layout_marginBottom="5dp"
-        android:layout_toRightOf="@id/add_title"
+        android:layout_toRightOf="@id/add_date"
         android:background="#DFCACA"
         android:backgroundTint="#F7777373"
+        android:fontFamily="@font/acinema"
         android:foregroundTint="#F6E8E8"
         android:padding="10dp"
         android:text="저장"
         android:textColor="#F8F3F3"
-        android:textSize="15sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
@@ -35,11 +36,12 @@
         android:layout_below="@id/saveBtn"
         android:layout_marginTop="7dp"
         android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acinema"
         android:padding="5dp"
         android:text="제목"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
 
     <TextView
@@ -48,56 +50,27 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/saveBtn"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="0dp"
         android:layout_marginBottom="10dp"
         android:layout_toRightOf="@id/title"
+        android:fontFamily="@font/acinema"
         android:inputType="textCapWords"
         android:padding="10dp"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textSize="15dp" />
+        android:textSize="20dp" />
 
     <ImageView
         android:id="@+id/add_image"
-        android:layout_width="119dp"
-        android:layout_height="138dp"
+        android:layout_width="104dp"
+        android:layout_height="154dp"
         android:layout_below="@id/saveBtn"
-        android:layout_marginLeft="83dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="50dp"
-        android:layout_toRightOf="@+id/add_title"
-        android:autofillHints="포스터 등록"
-        android:background="#86ECDDDD"
-        android:foreground="@drawable/imageview_default"
-        android:padding="50dp" />
-
-    <TextView
-        android:id="@+id/genre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/title"
-        android:layout_marginTop="5dp"
-        android:padding="5dp"
-        android:text="개봉일"
-        android:textColor="#FFFFFF"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/add_genre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/add_title"
-        android:layout_marginLeft="14dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginBottom="10dp"
-        android:layout_toRightOf="@id/genre"
-        android:hint="스릴러"
-        android:inputType="textCapWords"
-        android:padding="10dp"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="15dp" />
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@id/dateBtn" />
 
 
     <TextView
@@ -106,6 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/date"
         android:layout_marginTop="24dp"
+        android:fontFamily="@font/acinema"
         android:padding="5dp"
         android:text="별점"
         android:textColor="#FFFFFF"
@@ -115,17 +89,18 @@
 
     <RatingBar
         android:id="@+id/add_stars"
-        android:layout_width="229dp"
+        style="@android:style/Widget.Holo.RatingBar.Indicator"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/add_date"
-        android:layout_marginLeft="6dp"
-        android:layout_marginTop="7dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="10dp"
         android:layout_toRightOf="@id/stars"
         android:isIndicator="false"
         android:numStars="5"
         android:progressTint="@color/RED"
-        android:rating="2.5"
+        android:rating="0"
         android:stepSize="1" />
 
     <TextView
@@ -133,8 +108,9 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/genre"
+        android:layout_below="@id/title"
         android:layout_marginTop="14dp"
+        android:fontFamily="@font/acinema"
         android:padding="5dp"
         android:text="관람일"
         android:textColor="#FFFFFF"
@@ -144,35 +120,39 @@
     <TextView
         android:id="@+id/add_date"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/add_genre"
+        android:layout_height="39dp"
+        android:layout_below="@id/title"
         android:layout_marginLeft="11dp"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="12dp"
         android:layout_marginBottom="10dp"
         android:layout_toRightOf="@id/date"
         android:backgroundTint="#03FFFFFF"
         android:clickable="true"
         android:focusable="false"
+        android:fontFamily="@font/acinema"
+        android:gravity="center"
         android:text="2021.10.31"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="18dp"
+        android:textSize="20dp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/dateBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/add_genre"
-        android:layout_marginLeft="9dp"
-        android:layout_marginTop="1dp"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="10dp"
         android:layout_toRightOf="@id/add_date"
         android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/acinema"
         android:onClick="OnClickHandler"
         android:padding="10dp"
         android:text="날짜 선택"
         android:textColor="@color/white"
-        android:textSize="15sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <Button
@@ -183,12 +163,14 @@
         android:layout_marginTop="12dp"
         android:layout_marginBottom="5dp"
         android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/acinema"
+        android:onClick="mOnClick"
         android:padding="10dp"
-        android:text="간단리뷰"
+        android:text="간편리뷰"
         android:textColor="@color/white"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:onClick="mOnClick"/>
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <Button
         android:id="@+id/textBtn"
         android:layout_width="184dp"
@@ -200,27 +182,29 @@
         android:layout_marginBottom="5dp"
         android:layout_toRightOf="@id/tagBtn"
         android:backgroundTint="#00FFFFFF"
+        android:onClick="mOnClick"
         android:padding="10dp"
         android:text="텍스트리뷰"
+        android:fontFamily="@font/acinema"
         android:textColor="@color/white"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:onClick="mOnClick"/>
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textviewmain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/textBtn"
-        android:text="reviewItems:"
+        android:text=""
         android:textColor="@color/white"
-        android:textSize="10sp" />
+        android:textSize="10sp"
+        android:visibility="invisible" />
 
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="401dp"
         android:layout_height="374dp"
-        android:layout_below="@+id/textviewmain"
+        android:layout_below="@id/tagBtn"
         android:layout_marginTop="4dp" />
 
 

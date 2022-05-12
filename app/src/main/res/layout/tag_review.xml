@@ -23,7 +23,8 @@
         android:textColor="@color/white"
         android:textOff="#웃김"
         android:textOn="#웃김"
-        android:textSize="10sp"
+        android:fontFamily="@font/acinema"
+        android:textSize="12sp"
         android:textStyle="bold" />
 
     <ToggleButton
@@ -46,7 +47,8 @@
         android:textColor="@color/white"
         android:textOff="#감동 "
         android:textOn="#감동 "
-        android:textSize="10sp"
+        android:fontFamily="@font/acinema"
+        android:textSize="12sp"
         android:textStyle="bold" />
 
     <ToggleButton
@@ -68,7 +70,8 @@
         android:textColor="@color/white"
         android:textOff="#시간순삭"
         android:textOn="#시간순삭"
-        android:textSize="10sp"
+        android:fontFamily="@font/acinema"
+        android:textSize="12sp"
         android:textStyle="bold" />
 
     <ToggleButton
@@ -90,7 +93,8 @@
         android:textColor="@color/white"
         android:textOff="#또 볼래"
         android:textOn="#또 볼래"
-        android:textSize="10sp"
+        android:fontFamily="@font/acinema"
+        android:textSize="12sp"
         android:textStyle="bold" />
 
     <ToggleButton
@@ -112,7 +116,8 @@
         android:textColor="@color/white"
         android:textOff="#킬링타임용"
         android:textOn="#킬링타임용"
-        android:textSize="10sp"
+        android:fontFamily="@font/acinema"
+        android:textSize="12sp"
         android:textStyle="bold" />
 
     <ToggleButton
@@ -130,7 +135,8 @@
         android:textColor="@color/white"
         android:textOff="#연인과 함께"
         android:textOn="#연인과 함께"
-        android:textSize="10sp"
+        android:fontFamily="@font/acinema"
+        android:textSize="12sp"
         android:textStyle="bold" />
 
     <ToggleButton
@@ -149,7 +155,8 @@
         android:textColor="@color/white"
         android:textOff="#노잼"
         android:textOn="#노잼"
-        android:textSize="10sp"
+        android:fontFamily="@font/acinema"
+        android:textSize="12sp"
         android:textStyle="bold" />
 
     <ToggleButton
@@ -167,17 +174,40 @@
         android:textColor="@color/white"
         android:textOff="#그럭저럭"
         android:textOn="#그럭저럭"
-        android:textSize="10sp"
+        android:fontFamily="@font/acinema"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/completeBtn"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tag_with"
+        android:layout_alignStart="@id/tag_sgsg"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/acinema"
+        android:padding="7dp"
+        android:text="선택완료"
+        android:textColor="@color/white"
+        android:textSize="12sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/viewtag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tag_nojam"
-        android:text=" .."
+        android:layout_below="@id/completeBtn"
         android:textColor="@color/white"
-        android:textSize="10sp" />
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
 
     <!--    <Button-->
     <!--        android:id="@+id/tagOkBtn"-->

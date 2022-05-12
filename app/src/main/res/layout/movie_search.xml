@@ -21,8 +21,11 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/gray"
-        android:text="                Move"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="MOVE"
         android:textColor="@color/white"
+        android:fontFamily="@font/acinema"
         android:textSize="40dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -31,6 +34,9 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:scrollbars="vertical" />
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/list_item" />
+
 
 </LinearLayout>

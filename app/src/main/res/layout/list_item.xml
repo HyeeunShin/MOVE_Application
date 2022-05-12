@@ -3,6 +3,7 @@
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -36,7 +37,8 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="15dp"
                 android:text="제목"
-                android:textSize="17dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/acinema"
                 android:textColor="@color/white"
                 android:textStyle="bold" />
             <TextView
@@ -46,7 +48,8 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="35dp"
                 android:text="개봉일"
-                android:textSize="13dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/acinema"
                 android:textColor="@color/white"/>
             <TextView
                 android:id="@+id/t_vote_average"
@@ -55,7 +58,8 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="5dp"
                 android:text="평점"
-                android:textSize="13dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/acinema"
                 android:textColor="@color/white"/>
 
         </LinearLayout>
